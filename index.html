@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Local Uttarakhand Guide — Discover The Heart Of Himalayan Valleys</title>
+        <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
+        <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+
+        <!-- ================= SITE ================= -->
+        <div class="site" data-testid="site-root">` 
+
+            <!-- NAV -->
+            <nav class="nav" data-testid="main-nav">
+                <a href="#top" class="nav__brand" data-testid="nav-brand">
+                    <span class="brand__mark">R</span>
+                    <span class="brand__word">Rajdeep</span>
+                </a>
+                <ul class="nav__links" data-testid="nav-links">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#about" data-testid="nav-about">About</a></li>
+                    <li><a href="#expeditions" data-testid="nav-expeditions">Expeditions</a></li>
+                    <li><a href="#gallery" data-testid="nav-gallery">Gallery</a></li>
+                    <li><a href="#testimonials" data-testid="nav-testimonials">Voices</a></li>
+                    <li><a href="#book" data-testid="nav-book">Book</a></li>
+                </ul>
+                <div class="nav__actions">
+                    <a href="#book" class="btn btn--pill nav__cta" data-testid="nav-cta-book">
+                        Start Booking →
+                    </a>
+                </div>
+                <button class="nav__burger" aria-label="Menu" data-testid="nav-burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+
+            <div class="mobile-menu" data-testid="mobile-menu">
+                <a href="#intro">Intro</a>
+                <a href="#about" data-testid="mobile-nav-about">About</a>
+                <a href="#expeditions" data-testid="mobile-nav-expeditions">Expeditions</a>
+                <a href="#gallery" data-testid="mobile-nav-gallery">Gallery</a>
+                <a href="#testimonials" data-testid="mobile-nav-testimonials">Voices</a>
+                <a href="#book" data-testid="mobile-nav-book">Book</a>
+            </div>
+
+            <!-- HERO -->
+            <header id="top" class="hero" data-testid="hero-section">
+                <div class="hero__media">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2400&q=80" alt="Snow-capped mountain range at dawn" />
+                    <div class="hero__scrim"></div>
+                </div>
+                <div class="hero__inner">
+                    <div class="hero__tag reveal" data-testid="hero-tag">
+                        <span class="dot"></span> Local Uttarakhand Guide.
+                    </div>
+                    <h1 class="hero__title reveal" data-testid="hero-title">
+                        Discover The<br/>
+                        <em>Heart Of</em><br/>
+                        Himalayan Valleys.
+                    </h1>
+                    <p class="hero__sub reveal" data-testid="hero-subtitle">
+                        I'm your local trek guide from Rudraprayag. For fourteen seasons I've led pilgrims and trekkers across the Garhwal hills, temple trails and alpine lakes of Uttarakhand.
+                    </p>
+                    <div class="hero__cta reveal">
+                        <a href="#book" class="btn btn--primary" data-testid="hero-cta-book">Book an Expedition</a>
+                        <a href="#expeditions" class="btn btn--ghost" data-testid="hero-cta-expeditions">See the Routes</a>
+                    </div>
+                </div>
+                
+              <!--  <div class="hero__scroll">Scroll ↓</div> -->
+            </header>
+
+            <!-- INTRODUCTION -->
+            <section id="intro" class="intro" data-testid="intro-section">
+                <div class="section-head">
+                    <span class="eyebrow reveal">Chapter 01 — Introduction</span>
+                    <h2 class="reveal">Hello, I am Rajdeep.</h2>
+                </div>
+                <div class="intro__grid">
+                    <div class="intro__media reveal">
+                        <img src="images/rajdeep-portrait.jpeg" alt="Rajdeep Kumar portrait" />
+                    </div>
+                    <div class="intro__copy reveal">
+                        <p>"hello Friends" <br>
+                            I am Rajdeep from the beautiful village of kamsal in Rudraprayag district,Uttarakhand.
+                            I am a passionate explorer of the Himalayan valleys, forests, and wildlife.
+                            I love learning new things,but my real classroom is not books. It is on the mountains trails.
+                            Trekking, Bird watching, and wildlife observation is my passions.                          
+                            The himalayas have taught me the value of patience, discipline, teamwork, and respect for nature.
+                            These are the lesson I try to live by every single day.               
+                            If you want to trek through the untouched valleys of Uttarakhand, on experience the rare bird and wildlife up close. I can help make your journey even more special.                         
+                            lets explore the beauty of the Himalayas, connect with nature, and create memories that last a lifetime. <br>
+                            I am Rajdeep, your Himalayan Explorer and Local Guide. My guiding fee is ₹2,000 per day, charged separately from the trek package. <br>
+                            Thank you!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MARQUEE -->
+
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee__track">
+                    <span>Kartik Swami Temple</span><span>·</span>
+                    <span>Kedarnath</span><span>·</span>
+                    <span>Tungnath</span><span>·</span>
+                    <span>Badhanital</span><span>·</span>
+                    <span>Deoriya Taal</span><span>·</span>
+                    <span>Madhyameshwar Temple</span><span>·</span>
+                    <span>Triyuginarayan Temple</span><span>·</span>
+                    <span>Kedarnath</span><span>·</span>
+                    <span>Tungnath</span><span>·</span>
+                    <span>Badhanital</span><span>·</span>
+                    <span>Deoriya Taal</span><span>·</span>
+                    <span>Madhyameshwar Temple</span><span>·</span>
+                </div>
+            </div>
+
+            <!-- ABOUT -->
+            <section id="about" class="about" data-testid="about-section">
+                <div class="about__grid">
+                    <div class="about__left reveal">
+                        <img src="images/golu.jpeg" alt="Portrait of trek guide near basecamp">
+                        <div class="about__badge">
+                            <span>Wilderness First Responder</span>
+                        </div>
+                    </div>
+                    <div class="about__right">
+                        <span class="eyebrow reveal">Chapter 03 — A quiet obsession with high places.</span>
+                        <h2 class="reveal">A quiet obsession with high places.</h2>
+                        <p class="reveal">
+                            There is something about high places that always calls me back. Every mountain trail, every silent ridge, and every summit offers a feeling that cannot be found anywhere else. I don't climb just for the destination or the view. I climb to find peace, challenge myself, and reconnect with nature. The fresh mountain air, endless horizons, and quiet moments above the clouds remind me how small we are and how beautiful the world can be. My journey is not about conquering peaks but respecting them. For me, the mountains are more than places to visit. They are where I truly feel alive and at home.
+                        </p>
+                        <p class="reveal">
+                            I love sharing the beauty of Uttarakhand with others. I keep my groups small, move with calm confidence, and make every trek a place to connect with nature, learn new skills, and leave with stories worth carrying home.
+                        </p>
+                      
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPEDITIONS -->
+            <section id="expeditions" class="expeditions" data-testid="expeditions-section">
+                <div class="section-head">
+                    <span class="eyebrow reveal">Chapter 04 — Routes</span>
+                    <h2 class="reveal">Seven expeditions,<br/>each one a different silence.</h2>
+                </div>
+                <div class="trek-grid" data-testid="trek-grid"></div>
+            </section>
+
+            <!-- GALLERY -->
+            <section id="gallery" class="gallery" data-testid="gallery-section">
+                <div class="section-head">
+                    <span class="eyebrow reveal">Chapter 05 — Field Notes</span>
+                    <h2 class="reveal">Frames from the trail.</h2>
+                </div>
+                <div class="gallery__grid" data-testid="gallery-grid">
+                    <figure class="g1"><img src="images/golu.jpeg" alt="Guide portrait from the trail"/></figure>
+                    <figure class="g2"><img src="images/kedarnath.jpeg" alt="Kedarnath trek"/></figure>
+                    <figure class="g3"><img src="images/madhyameshwar.jpeg" alt="Madhyameshwar Temple trek"/></figure>
+                    <figure class="g4"><img src="images/tungnath.jpeg" alt="Tungnath trek"/></figure>
+                    <figure class="g5"><img src="images/kartik swami.jpeg" alt="Kartik Swami Temple trek"/></figure>
+                    <figure class="g6"><img src="images/kkkk.jpeg" alt="Mountain vista"/></figure>
+                </div>
+            </section>
+
+            <!-- TESTIMONIALS -->
+            <section id="testimonials" class="testimonials" data-testid="testimonials-section">
+                <div class="section-head">
+                    <span class="eyebrow reveal">Chapter 06 — Voices</span>
+                    <h2 class="reveal">What they carried down.</h2>
+                </div>
+                <div class="testimonials__grid">
+                    <blockquote class="reveal" data-testid="testimonial-1">
+                        <p>"The Kartik swami Temple trek was everything I hoped for. The guide knew every turn, every local story, and kept us steady through the final climb."</p>
+                        <footer><b>Lakshman</b><span>Kartik Swami Temple, 2026</span></footer>
+                    </blockquote>
+                    <blockquote class="reveal" data-testid="testimonial-2">
+                        <p>"The Tungnath-Chandrashila route was a perfect Himalayan first. The pace was calm, the views were unreal, and it felt safe from start to finish."</p>
+                        <footer><b>Vicram Singh</b><span>Tungnath, 2023</span></footer>
+                    </blockquote>
+                    <blockquote class="reveal" data-testid="testimonial-3">
+                        <p>"Deoriya Taal and Badhanital are unforgettable. The guide made the whole trip easy, with picnic lunches by the lake and clear local knowledge."</p>
+                        <footer><b>Nisha </b><span>Devriya Taal, 2025</span></footer>
+                    </blockquote>
+                </div>
+            </section>`
+
+            <!-- BOOKING -->
+            <section id="book" class="booking" data-testid="booking-section">
+                <div class="booking__grid">
+                    <div class="booking__left">
+                        <span class="eyebrow reveal">Chapter 07 — Book</span>
+                        <h2 class="reveal">Reserve your line<br/>on the ridge.</h2>
+                        <p class="reveal">Tell me where you'd like to go and when. I confirm every booking personally within 24 hours over WhatsApp or email.</p>
+                        <div class="booking__meta reveal">
+                            <div><b>Group size</b><span>1 – 8 trekkers</span></div>
+                            <div><b>Package pricing</b><span>Fixed per-person rates include shared transport from Rishikesh, food and accommodation. Rajdeep's guide fee is ₹2,000 per day, charged separately.</span></div>
+                            <div><b>Guide fee</b><span>₹2,000 per day, separate from the trek package price.</span></div>
+                            <div><b>Season</b><span>Trekking is available for 10 month but it remains closed during July and August due to the heavy monsoon</span></div>
+                            <div><b>Deposit</b><span>A sum of ₹500 per person will be collected during pre booking and 50% of the amount will be refunded if the booking is cancelled</span></div>
+                        </div>
+                        <div class="booking__contact reveal">
+                            <a href="mailto:rajdeep@rudraprayag.com" data-testid="booking-email">rajdeepparsad47@gmail.com</a>
+                            <a href="tel:+919084738318" data-testid="booking-phone">+91 90847 38318</a>
+                        </div>
+                    </div>
+
+                    <form class="booking__form reveal" id="booking-form" data-testid="booking-form" novalidate>
+                        <div class="field">
+                            <label for="f-name">Your name</label>
+                            <input type="text" id="f-name" name="name" required data-testid="input-name" placeholder="e.g. Rajdeep Prasad" />
+                        </div>
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="f-email">Email</label>
+                                <input type="email" id="f-email" name="email" required data-testid="input-email" placeholder="you@domain.com" />
+                            </div>
+                            <div class="field">
+                                <label for="f-phone">Phone / WhatsApp</label>
+                                <input type="tel" id="f-phone" name="phone" required data-testid="input-phone" placeholder="+91 9876543210" />
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="f-trek">Expedition</label>
+                                <select id="f-trek" name="trek" required data-testid="select-trek">
+                                    <option value="">Select a route…</option>
+                                    <option value="Kartik Swami Temple">Kartik Swami Temple · 2 days · ₹4,000</option>
+                                    <option value="Kedarnath">Kedarnath · 5 days · ₹8,000</option>
+                                    <option value="Tungnath + Chandrashila">Tungnath + Chandrashila · 3 days · ₹5,000</option>
+                                    <option value="Badhanital">Badhanital · 2 days · ₹4,000</option>
+                                    <option value="Deoriya Taal">Deoriya Taal · 2 days · ₹4,500</option>
+                                    <option value="Madhyameshwar Temple">Madhyameshwar Temple · 4 days · ₹6,500</option>
+                                    <option value="Triyuginarayan Temple">Triyuginarayan Temple · 2 days · ₹3,500</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="f-date">Preferred start date</label>
+                                <input type="date" id="f-date" name="date" required data-testid="input-date" />
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="f-people">Trekkers</label>
+                                <input type="number" id="f-people" name="people" min="1" max="8" value="2" required data-testid="input-people" />
+                            </div>
+                            <div class="field">
+                                <label for="f-level">Experience</label>
+                                <select id="f-level" name="level" data-testid="select-level">
+                                    <option>First high-altitude trek</option>
+                                    <option>Some Himalayan experience</option>
+                                    <option>Seasoned trekker</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="f-msg">Anything I should know?</label>
+                            <textarea id="f-msg" name="message" rows="3" data-testid="input-message" placeholder="Dietary needs, prior altitude issues, celebration trip…"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full" data-testid="btn-submit-booking">
+                            Send Booking Request →
+                        </button>
+                        <p class="form-note">Your details are stored locally. On submit you can also send them to me on WhatsApp with one tap.</p>
+                    </form>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="footer" data-testid="footer">
+                <div class="footer__grid">
+                    <div>
+                        <div class="brand__mark big">R</div>
+                        <p>Rajdeep — Uttarakhand Trek Guide.<br/>Rudraprayag · Uttarakhand · India</p>
+                    </div>
+                    <div>
+                        <b>Wander</b>
+                        <a href="#about">About</a>
+                        <a href="#expeditions">Expeditions</a>
+                        <a href="#gallery">Gallery</a>
+                    </div>
+                    <div>
+                        <b>Contact</b>
+                        <a href="mailto:rajdeepprasad47@gmail.com">rajdeepprasad47@gmail.com</a>
+                        <a href="tel:+919084738318">+91 9084738318</a>
+                        <a href="https://wa.me/+919084738318" target="_blank" rel="noreferrer">WhatsApp</a>
+                    </div>
+                    <div>
+                        <b>Follow</b>
+                        <a href="https://www.instagram.com/mr_golu_uk013/">Instagram</a>
+                        <a href="">YouTube</a>
+                        <a href="https://www.facebook.com/share/1DXQnbifkk/">Facebook</a>
+                    </div>
+                </div>
+                <div class="footer__bar">
+                    <span>© <span id="year"></span> Rajdeep.Responsible tourism.</span>
+                    
+                </div>
+            </footer>
+        </div>
+
+        <!-- CONFIRMATION MODAL -->
+        <div class="modal" id="modal" data-testid="confirmation-modal" aria-hidden="true">
+            <div class="modal__scrim" data-modal-close></div>
+            <div class="modal__card">
+                <div class="modal__icon">✓</div>
+                <p id="modal-body">Thank you. I'll be in touch within 24 hours.</p>
+                <div class="modal__cta">
+                    <a href="#" id="wa-link" class="btn btn--primary" target="_blank" rel="noreferrer" data-testid="modal-whatsapp">Send on WhatsApp</a>
+                    <button class="btn btn--ghost" data-modal-close data-testid="modal-close">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
